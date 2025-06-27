@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lahiru Shehan | Creative UI/UX Designer</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- 3D Mouse Follower -->
+  <div class="mouse-follower"></div>
+  
+  <!-- Navigation -->
+  <nav class="navbar glass">
+    <div class="nav-container">
+      <div class="nav-logo">Lahiru<span class="highlight">Shehan</span></div>
+      <div class="nav-links">
+        <a href="#hero">Home</a>
+        <a href="#about">About</a>
+        <a href="#education">Education</a>
+        <a href="#featured-work">Work</a>
+        <a href="#demos">Demos</a>
+        <a href="#testimonial">Testimonials</a>
+        <!-- <a href="contact.html" class="active cta-nav glass">Contact</a> -->
+      </div>
+      <div class="nav-toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero" id="hero">
+    <div class="hero-background">
+      <div class="background-image active" data-title="Automobile Technician" style="background-image: url('https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=1920&q=80')"></div>
+      <div class="background-image" data-title="UI/UX Designer" style="background-image: url('https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1920&q=80')"></div>
+      <div class="background-image" data-title="AI & Python Developer" style="background-image: url('https://images.unsplash.com/photo-1518709268805-4e9042af2176?auto=format&fit=crop&w=1920&q=80')"></div>
+      <div class="background-image" data-title="Creative Problem Solver" style="background-image: url('https://images.unsplash.com/photo-1557682250-33bd709cbe85?auto=format&fit=crop&w=1920&q=80')"></div>
+      <div class="background-image" data-title="Tech Explorer" style="background-image: url('https://images.unsplash.com/photo-1557683316-973673baf926?auto=format&fit=crop&w=1920&q=80')"></div>
+      <div class="floating-element" data-speed="0.5"></div>
+      <div class="floating-element" data-speed="0.3"></div>
+      <div class="floating-element" data-speed="0.7"></div>
+      <div class="hero-grid">
+        <div class="grid-line"></div>
+        <div class="grid-line"></div>
+        <div class="grid-line"></div>
+        <div class="grid-line"></div>
+      </div>
+    </div>
+    <div class="hero-container">
+      <div class="hero-content">
+        <div class="hero-tagline">
+          <span class="tagline-text">I'm a</span>
+          <div class="rotating-titles">
+            <span class="rotating-title typewriter" id="typewriter-text"></span>
+            <span class="cursor">|</span>
+          </div>
+        </div>
+        
+        <p class="hero-description">
+          Blending creativity, technology, and automotive passion to build the future of digital experiences
+        </p>
+        
+        <div class="hero-cta">
+          <a href="#featured-work" class="cta-btn primary">
+            <span class="btn-text">Explore My Work</span>
+            <span class="btn-icon">→</span>
+          </a>
+          <a href="#contact" class="cta-btn secondary">
+            <span class="btn-text">Let's Connect</span>
+            <span class="btn-icon">✉</span>
+          </a>
+        </div>
+        
+        <div class="hero-stats">
+          <div class="stat-item">
+            <span class="stat-number">3+</span>
+            <span class="stat-label">Years Experience</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-number">50+</span>
+            <span class="stat-label">Projects Completed</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-number">100%</span>
+            <span class="stat-label">Client Satisfaction</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Enhanced 3D Mouse Follower -->
+    <div class="hero-mouse-follower"></div>
+    <div class="hero-mouse-trail"></div>
+  </section>
+
+  <!-- About Section -->
+  <section class="section about-section" id="about">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">About Me</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="about-content">
+        <div class="about-image glass">
+          <img src="profile.jpg" alt="Lahiru Shehan" class="profile-photo" id="about-profile-photo">
+        </div>
+        <div class="about-text">
+          <p>Hi, I'm Lahiru Shehan—a passionate UI/UX designer with over three years of experience crafting intuitive, modern interfaces for web and mobile platforms. My journey began with a love for design and a drive to make technology more human-centered, using tools like Figma to bring ideas to life.</p>
+          <p>Recently, I've been expanding my expertise into AI development with Python, exploring how intelligent systems can enhance digital experiences. Alongside my design and tech pursuits, I'm a full-time student of automotive technology, fascinated by the intersection of vehicles, design, and smart systems.</p>
+          <p>My goal? To blend creativity, technology, and my love for automobiles into innovative solutions—like SyncDrive, an app designed to make group road trips smarter and more connected.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Education Section -->
+  <section class="section education-section" id="education">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Education & Qualifications</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="education-card glass">
+        <h3>Automotive Technology Training</h3>
+        <div class="education-details">
+          <div class="detail-item">
+            <span class="label">Institution:</span>
+            <span class="value">CGTTI (Ceylon German Technical Training Institute)</span>
+          </div>
+          <div class="detail-item">
+            <span class="label">Program:</span>
+            <span class="value">Automobile Technician Training</span>
+          </div>
+          <div class="detail-item">
+            <span class="label">Focus Areas:</span>
+            <span class="value">Vehicle diagnostics, engine systems, electrical systems, and modern automotive technology</span>
+          </div>
+        </div>
+        <p>Currently pursuing full-time studies in automotive technology, gaining hands-on experience with vehicle maintenance, repair, and understanding the integration of technology in modern automobiles.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured Work Section -->
+  <section class="section featured-work-section" id="featured-work">
+    <div class="container">
+      <h2 class="section-title">Featured Work</h2>
+      <div class="featured-work-grid">
+        <!-- Card 1 -->
+        <div class="work-card glass">
+          <div class="work-image">
+            <img src="hero-bg.jpg" alt="SyncDrive AI Dashboard">
+          </div>
+          <div class="work-content">
+            <h3>SyncDrive AI Dashboard</h3>
+            <p>AI-powered fleet management and predictive maintenance platform for automotive businesses. Real-time analytics, driver insights, and seamless UI/UX.</p>
+            <div class="work-tags">
+              <span>UI/UX</span><span>AI</span><span>Automotive</span>
+            </div>
+            <a href="#" class="work-link">View Project</a>
+          </div>
+        </div>
+        <!-- Card 2 -->
+        <div class="work-card glass">
+          <div class="work-image">
+            <img src="profile.jpg" alt="Personal Portfolio Redesign">
+          </div>
+          <div class="work-content">
+            <h3>Portfolio Redesign</h3>
+            <p>Modern, interactive portfolio site with glassmorphism, 3D effects, and typewriter hero. Focused on accessibility and futuristic design trends.</p>
+            <div class="work-tags">
+              <span>UI/UX</span><span>Web</span><span>Animation</span>
+            </div>
+            <a href="#" class="work-link">View Project</a>
+          </div>
+        </div>
+        <!-- Card 3 -->
+        <div class="work-card glass">
+          <div class="work-image">
+            <img src="hero-bg.jpg" alt="AI Car Assistant Demo">
+          </div>
+          <div class="work-content">
+            <h3>AI Car Assistant Demo</h3>
+            <p>Conversational AI demo for in-car voice control, navigation, and infotainment. Designed for seamless integration and intuitive user experience.</p>
+            <div class="work-tags">
+              <span>AI</span><span>Voice</span><span>Automotive</span>
+            </div>
+            <a href="#" class="work-link">View Demo</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Demos Section -->
+  <section class="section demos-section" id="demos">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">AI + Automobiles: Tools & Demos</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="demos-grid">
+        <div class="demo-card glass">
+          <h4>Smart Route Optimizer</h4>
+          <p>AI suggests best routes for group travel, factoring in traffic and preferences.</p>
+        </div>
+        <div class="demo-card glass">
+          <h4>Driver Mood Detection UI</h4>
+          <p>Concept interface for in-car systems that use AI to detect driver mood and suggest music, rest stops, or tips.</p>
+        </div>
+        <div class="demo-card glass">
+          <h4>Future Mobility Dashboard</h4>
+          <p>Prototype dashboard for connected vehicles, visualizing real-time data with a focus on safety and collaboration.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section class="section testimonials-section" id="testimonial">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">What People Say</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="testimonials-grid">
+        <div class="testimonial-card glass featured">
+          <div class="testimonial-header">
+            <div class="testimonial-avatar">
+              <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop&crop=face" alt="Priyantha Fernando">
+            </div>
+            <div class="testimonial-info">
+              <h4>Priyantha Fernando</h4>
+              <span>Product Manager</span>
+            </div>
+            <div class="testimonial-rating">★★★★★</div>
+          </div>
+          <blockquote>
+            "Working with Lahiru was a game-changer for our project. His attention to detail, creative vision, and ability to translate complex ideas into user-friendly designs made all the difference."
+          </blockquote>
+        </div>
+        
+        <div class="testimonial-card glass">
+          <div class="testimonial-header">
+            <div class="testimonial-avatar">
+              <img src="https://images.unsplash.com/photo-1494790108755-2616b612b786?w=100&h=100&fit=crop&crop=face" alt="Sanduni Perera">
+            </div>
+            <div class="testimonial-info">
+              <h4>Sanduni Perera</h4>
+              <span>Startup Founder</span>
+            </div>
+            <div class="testimonial-rating">★★★★★</div>
+          </div>
+          <blockquote>
+            "Lahiru's designs elevated our app's user experience. He's creative, reliable, and always delivers beyond expectations."
+          </blockquote>
+        </div>
+        
+        <div class="testimonial-card glass">
+          <div class="testimonial-header">
+            <div class="testimonial-avatar">
+              <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&h=100&fit=crop&crop=face" alt="Michael Jayasuriya">
+            </div>
+            <div class="testimonial-info">
+              <h4>Michael Jayasuriya</h4>
+              <span>Tech Lead</span>
+            </div>
+            <div class="testimonial-rating">★★★★★</div>
+          </div>
+          <blockquote>
+            "A true professional! Lahiru's blend of design and tech skills is rare and invaluable."
+          </blockquote>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-social">
+          <a href="https://www.linkedin.com/in/lahishe" target="_blank" aria-label="LinkedIn" class="social-link glass">
+            <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/linkedin.svg" alt="LinkedIn">
+          </a>
+          <a href="https://github.com/lahiruco" target="_blank" aria-label="GitHub" class="social-link glass">
+            <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/github.svg" alt="GitHub">
+          </a>
+          <a href="mailto:lahishe@gmail.com" aria-label="Email" class="social-link glass">
+            <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/gmail.svg" alt="Email">
+          </a>
+        </div>
+        <div class="footer-copy">&copy; 2025 Lahiru Shehan. All rights reserved.</div>
+        <a href="#hero" class="back-to-top glass">Back to Top ↑</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html> 

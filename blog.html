@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lahiru Shehan | Blog</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <nav class="navbar glass">
+    <div class="nav-container">
+      <div class="nav-logo"><a href="index.html" style="text-decoration:none;color:inherit;">Lahiru<span class="highlight">Shehan</span></a></div>
+      <div class="nav-links">
+        <a href="index.html#hero">Home</a>
+        <a href="index.html#about">About</a>
+        <a href="index.html#education">Education</a>
+        <a href="index.html#featured-work">Work</a>
+        <a href="blog.html" class="active">Blog</a>
+        <a href="index.html#demos">Demos</a>
+        <a href="index.html#testimonial">Testimonials</a>
+        <a href="index.html#contact" class="cta-nav glass">Contact</a>
+      </div>
+      <div class="nav-toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </nav>
+
+  <main class="blog-main">
+    <header class="blog-header" style="margin-top: 90px;">
+      <h1 class="section-title">Blog</h1>
+      <p class="blog-intro">Insights, stories, and lessons from my journey in automobiles, creative problem solving, and tech.</p>
+    </header>
+    <div class="blog-controls">
+      <input type="text" class="blog-search" placeholder="Search articles..." aria-label="Search articles">
+      <div class="blog-filters">
+        <button class="filter-btn active" data-category="all">All</button>
+        <button class="filter-btn" data-category="automobile">Automobile</button>
+        <button class="filter-btn" data-category="ai">AI</button>
+        <button class="filter-btn" data-category="uiux">UI/UX</button>
+      </div>
+      <button class="theme-toggle" aria-label="Toggle dark/light mode">🌙</button>
+    </div>
+    <section class="blog-grid" id="blog-grid">
+      <!-- Blog Card Example -->
+      <article class="blog-card glass" data-category="automobile">
+        <div class="blog-card-image">
+          <img src="blog-images/repair1-1.jpg" alt="First Major Repair">
+        </div>
+        <div class="blog-card-content">
+          <span class="blog-card-tag">Automobile</span>
+          <h2 class="blog-card-title">My First Major Repair</h2>
+          <p class="blog-card-desc">How I solved a tricky P0420 code on a Suzuki Every and learned the value of creative diagnostics as a new mechanic.</p>
+          <a href="#" class="blog-card-link">Read More →</a>
+        </div>
+      </article>
+      <article class="blog-card glass" data-category="ai">
+        <div class="blog-card-image">
+          <img src="https://images.unsplash.com/photo-1518709268805-4e9042af2176?auto=format&fit=crop&w=600&q=80" alt="AI in Automobiles">
+        </div>
+        <div class="blog-card-content">
+          <span class="blog-card-tag">AI</span>
+          <h2 class="blog-card-title">AI for Smarter Cars</h2>
+          <p class="blog-card-desc">Exploring how artificial intelligence is transforming the driving experience and the future of mobility.</p>
+          <a href="#" class="blog-card-link">Read More →</a>
+        </div>
+      </article>
+      <article class="blog-card glass" data-category="uiux">
+        <div class="blog-card-image">
+          <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=600&q=80" alt="UI/UX Trends">
+        </div>
+        <div class="blog-card-content">
+          <span class="blog-card-tag">UI/UX</span>
+          <h2 class="blog-card-title">2025 UI/UX Trends</h2>
+          <p class="blog-card-desc">A look at the latest design trends and how to create interfaces that feel futuristic yet human-centered.</p>
+          <a href="#" class="blog-card-link">Read More →</a>
+        </div>
+      </article>
+      <!-- Add more cards as needed -->
+    </section>
+    <button class="blog-load-more">Load More</button>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-social">
+          <a href="https://www.linkedin.com/" target="_blank" aria-label="LinkedIn" class="social-link glass">
+            <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/linkedin.svg" alt="LinkedIn">
+          </a>
+          <a href="https://github.com/" target="_blank" aria-label="GitHub" class="social-link glass">
+            <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/github.svg" alt="GitHub">
+          </a>
+          <a href="mailto:lahiru@email.com" aria-label="Email" class="social-link glass">
+            <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/gmail.svg" alt="Email">
+          </a>
+        </div>
+        <div class="footer-copy">&copy; 2024 Lahiru Shehan. All rights reserved.</div>
+        <a href="#" class="back-to-top glass">Back to Top ↑</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html> 
